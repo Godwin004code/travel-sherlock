@@ -12,10 +12,7 @@
     display: flex;
     justify-content: space-between;
   }
-  ul {
-    list-style-type: none;
-    display: flex;
-  }
+ 
 .service-container {
     width: 90%;
     margin: 0 auto;
@@ -28,8 +25,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
-    overflow-y: hidden;
-    padding: 0 10px;
+    
 }
 
 
