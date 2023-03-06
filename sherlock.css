@@ -183,12 +183,15 @@ svg {
         margin-left: auto;
         margin-right: auto;
     }
-    .main-area-img, .main-area-text button {
-        width: 90%;
+    .main-area-img {
+        width: 100%;
+    }
+    .main-area-text button {
+        width: 100%;
     }
     .main-area-text {
         margin-top: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .footer-container {
         flex-direction: column;
