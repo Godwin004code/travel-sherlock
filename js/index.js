@@ -20,3 +20,12 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById("defaultOpen").click();
+
+
+  const destinations = document.querySelectorAll('.dest')
+  console.log(destinations);
+  destinations.forEach((dest) => {
+    dest.addEventListener('click', function() {
+      window.location.pathname = '../searchres.html'
+    })
+  })

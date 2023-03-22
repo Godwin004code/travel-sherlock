@@ -1,0 +1,2503 @@
+#HotelName {
+    background-color: red;
+    width: 100%;
+}
+#Overview {
+    background-color: green;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#carousel-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.rg-image {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.PageHeader {
+    color: #333;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: Helvetica,Arial,sans-serif
+}
+
+.Bold,.bold {
+    font-weight: 700
+}
+
+.italic {
+    font-style: italic
+}
+
+.strike {
+    text-decoration: line-through
+}
+
+.HeaderTableCell h1 {
+    margin-bottom: 0;
+    margin-left: 3px
+}
+
+.SearchResults h2 {
+    font-size: 13px;
+    color: #000;
+    font-weight: 700;
+    margin: 2px 0
+}
+
+a.btnLargeBlue,a.btnLargeBlue:Link,a.btnLargeBlue:visited,a.btnMediumBlue,a.btnMediumBlue:Link,a.btnMediumBlue:visited {
+    color: #3674c1
+}
+
+a.btnLargeRed,a.btnLargeRed:Link,a.btnLargeRed:visited,a.btnLargeWideRed,a.btnLargeWideRed:Link,a.btnLargeWideRed:visited {
+    color: #c00
+}
+
+a.btnLargeBlack,a.btnLargeBlack:Link,a.btnLargeBlack:visited {
+    color: #000
+}
+
+a.btnLargeGreen,a.btnLargeGreen:Link,a.btnLargeGreen:visited {
+    color: green
+}
+
+a.btnLargeBlack,a.btnLargeBlack:visited,a.btnLargeBlue,a.btnLargeBlue:visited,a.btnLargeGreen,a.btnLargeGreen:visited,a.btnLargeRed,a.btnLargeRed:visited {
+    -moz-box-shadow: inset 0 1px 15px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 15px 0 #fff;
+    box-shadow: inset 0 1px 15px 0 #fff;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(.05,#f9f9f9),color-stop(1,#e9e9e9));
+    background: -moz-linear-gradient(center top,#f9f9f9 5%,#e9e9e9 100%);
+    background-color: #f9f9f9;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    text-indent: 0;
+    border: 1px solid #ccc6c6;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    width: 124px;
+    text-decoration: none;
+    padding: 4px;
+    text-align: center;
+    text-shadow: -1px 0 #fff,0 1px #fff,2px 0 #fff,0 -1px #fff
+}
+
+a.btnLargeBlack:hover,a.btnLargeBlue:hover,a.btnLargeGreen:hover,a.btnLargeRed:hover,a.btnLargeWideRed:hover,a.btnMediumBlue:hover {
+    text-decoration: underline
+}
+
+.en a.btnLargeBlack,.en a.btnLargeBlack:visited,.en a.btnLargeBlue,.en a.btnLargeBlue:visited,.en a.btnLargeGreen,.en a.btnLargeGreen:visited,.en a.btnLargeRed,.en a.btnLargeRed:visited {
+    padding: 8px 4px
+}
+
+a.btnMediumBlue,a.btnMediumBlue:visited {
+    -moz-box-shadow: inset 0 1px 15px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 15px 0 #fff;
+    box-shadow: inset 0 1px 15px 0 #fff;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(.05,#f9f9f9),color-stop(1,#e9e9e9));
+    background: -moz-linear-gradient(center top,#f9f9f9 5%,#e9e9e9 100%);
+    background-color: #f9f9f9;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    text-indent: 0;
+    border: 1px solid #ccc6c6;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    width: 113px;
+    text-decoration: none;
+    padding: 8px 4px;
+    text-align: center;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+a.btnLargeWideRed,a.btnLargeWideRed:visited {
+    -moz-box-shadow: inset 0 1px 15px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 15px 0 #fff;
+    box-shadow: inset 0 1px 15px 0 #fff;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(.05,#f9f9f9),color-stop(1,#e9e9e9));
+    background: -moz-linear-gradient(center top,#f9f9f9 5%,#e9e9e9 100%);
+    background-color: #f9f9f9;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    text-indent: 0;
+    border: 1px solid #ccc6c6;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    width: 248px;
+    text-decoration: none;
+    padding: 8px 4px;
+    text-align: center;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+.bulleted {
+    background: url(//cdn.hotelplanner.com/Common/Images/ArrowOrange.gif) no-repeat left;
+    padding-left: 16px
+}
+
+.clearleft {
+    clear: left
+}
+
+.clearright {
+    clear: right
+}
+
+.clearboth {
+    clear: both
+}
+
+a.btnCompareTopWide,a.btnCompareTopWide:Link,a.btnCompareTopWide:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareTopWide.gif) no-repeat 0 0;
+    width: 177px;
+    height: 33px;
+    display: block;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding-left: 13px;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+a.btnCompareTopWide:hover {
+    color: #004800;
+    text-decoration: underline
+}
+
+a.btnCompareBottomWide,a.btnCompareBottomWide:Link,a.btnCompareBottomWide:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareBottomWide.gif) no-repeat 0 0;
+    width: 177px;
+    height: 33px;
+    display: block;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding-left: 13px;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 44px;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+a.btnCompareBottomWide:hover {
+    color: #004800!important;
+    text-decoration: underline
+}
+
+a.btnCompareTop,a.btnCompareTop:Link,a.btnCompareTop:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareTop.gif) no-repeat 0 0;
+    width: 150px;
+    height: 33px;
+    display: block;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding-left: 6px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+a.btnCompareTop:hover {
+    color: #004800;
+    text-decoration: underline;
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareTop.gif) no-repeat 0 -33px
+}
+
+a.btnCompareBottom,a.btnCompareBottom:Link,a.btnCompareBottom:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareBottom.gif) no-repeat 0 0;
+    width: 150px;
+    height: 33px;
+    display: block;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding-left: 6px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 44px;
+    position: relative;
+    bottom: 15px;
+    left: -10px;
+    overflow: hidden;
+    text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff
+}
+
+a.btnCompareBottom:hover {
+    color: #004800;
+    text-decoration: underline;
+    background: url(//cdn.hotelplanner.com/Common/Images/ButtonCompareBottom.gif) no-repeat 0 -33px
+}
+
+.SortBox {
+    border: #efeecd 1px solid;
+    background: url(//cdn.hotelplanner.com/Common/Images/Shared/sort_bg.gif);
+    margin: 3px
+}
+
+.SortBox td {
+    padding: 2px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px
+}
+
+a.SortLinks,a.SortLinks:Link {
+    color: #467fb1!important;
+    font-weight: 700
+}
+
+.SortLabel {
+    font-weight: 700;
+    color: #467fb1;
+    text-align: right
+}
+
+.SortLabelActive {
+    font-weight: 700;
+    color: red;
+    text-align: right
+}
+
+a.btnMap,a.btnMap:Link,a.btnMap:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/Shared/MapBackground.gif) no-repeat 0 0;
+    width: 160px;
+    height: 68px;
+    display: block;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    padding-right: 5px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 64px;
+    position: relative
+}
+
+a.btnMap:hover {
+    color: #c00;
+    text-decoration: underline
+}
+
+a.btnPlain,a.btnPlain:Link,a.btnPlain:Visited {
+    background: url(//cdn.hotelplanner.com/Common/Images/Shared/btnBackground.gif) no-repeat 0 0;
+    width: 160px;
+    height: 68px;
+    display: block;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    padding-right: 5px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 64px;
+    position: relative
+}
+
+a.btnPlain:hover {
+    color: #c00;
+    text-decoration: underline
+}
+
+#LanguageWrap {
+    position: relative;
+    float: left
+}
+
+#LanguageWrap .LanguageSelector {
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background-color: #fff;
+    width: 220px;
+    display: none;
+    border: 3px solid #1975a4;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px
+}
+
+.LanguageHead A {
+    font-size: 9px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+#LanguageWrap .LanguageHead {
+    background-color: #fff;
+    padding: 4px;
+    width: 212px;
+    font-weight: 700;
+    border-bottom: 1px solid #1975a4
+}
+
+.FlagIcon {
+    border: 0
+}
+
+.Rounded {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -khtml-border-radius: 7px
+}
+
+#SimplePopupWrap,.SimplePopupWrap {
+    position: relative;
+    float: left
+}
+
+#SimplePopupWrap .SimplePopopDesc,.SimplePopupWrap .SimplePopopDesc {
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background-color: #fff;
+    width: 380px;
+    display: none;
+    border: 3px solid #1975a4;
+    padding: 5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -khtml-border-radius: 7px
+}
+
+#SimplePopupWrap .SimplePopopV,.SimplePopupWrap .SimplePopopV {
+    z-index: 9999999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background-color: #fff;
+    display: none;
+    border: 3px solid #1975a4;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -khtml-border-radius: 4px
+}
+
+h4 {
+    font-size: 14px
+}
+
+#SimplePopupWrap .close,.SimplePopupWrap .close {
+    float: right;
+    margin-right: 30px;
+    font-weight: 700
+}
+
+#SimplePopupWrap .remButtonBig,.SimplePopupWrap .remButtonBig {
+    position: absolute;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    display: block;
+    top: -14px;
+    left: -14px;
+    background: url(//cdn.hotelplanner.com/Common/Images/close-bg.png)
+}
+
+#SimplePopupWrap .remButton,.SimplePopupWrap .remButton {
+    position: absolute;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: -10px;
+    left: -8px;
+    background: url(//cdn.hotelplanner.com/Common/Images/close-sm.png)
+}
+
+#SimplePopupWrap .remButtonBig:hover,.SimplePopupWrap .remButtonBig:hover {
+    background: url(//cdn.hotelplanner.com/Common/Images/close-bg_hover1.png)
+}
+
+#SimplePopupWrap .remButton:hover,.SimplePopupWrap .remButton:hover {
+    background: url(//cdn.hotelplanner.com/Common/Images/close-sm_hover1.png)
+}
+
+#SimplePopupWrap .remButtonBigRight,.SimplePopupWrap .remButtonBigRight {
+    position: absolute;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    display: block;
+    top: -14px;
+    right: -14px;
+    background: url(//cdn.hotelplanner.com/Common/Images/close-bg.png)
+}
+
+#SimplePopupWrap .remButtonBigRight:hover,.SimplePopupWrap .remButtonBigRight:hover {
+    background: url(//cdn.hotelplanner.com/Common/Images/close-bg_hover1.png)
+}
+
+#WidgetTabs #WidgetTabLeft,#WidgetTabs #WidgetTabRight {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
+}
+
+.WidgetBoxHotels,.WidgetBoxSpace {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 3px 2px #888
+}
+
+.opaqueButton {
+    background: #eee;
+    color: #000;
+    cursor: hand;
+    font: bold 13px/1em Arial,HelveticaNeue,sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 0 gray;
+    padding: 5px 8px;
+    border-width: 1px 2px 2px 1px;
+    border-color: #000;
+    background: -webkit-gradient(linear,left top,left bottom,from(#eee),to(#fff));
+    background-color: #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-opacity: 0;
+    opacity: 0;
+    display: block;
+    text-align: center
+}
+
+.opaqueButton:hover {
+    -moz-opacity: .9;
+    opacity: .9
+}
+
+.IndividualResults {
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border: 1px solid #98c1e0;
+    background: -webkit-gradient(linear,left top,left bottom,from(#dde4e9),to(#eeeef0));
+    background: -moz-linear-gradient(top,#dde4e9 0,#eeeef0 100%);
+    background: -ms-linear-gradient(top,#dde4e9 0,#eeeef0 100%);
+    background: linear-gradient(top,#dde4e9 0,#eeeef0 100%);
+    background: -o-linear-gradient(top,#dde4e9 0,#eeeef0 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -khtml-border-radius: 8px;
+    padding-left: 5px;
+    margin-left: -8px;
+    z-index: 5;
+    left: 0;
+    position: relative;
+    width: 101%
+}
+
+.seolist ul li {
+    text-align: left;
+    font-size: 16px
+}
+
+.seorevlabel,.seorevscore {
+    font-size: 16px;
+    font-weight: 700
+}
+
+img.MapImage {
+    width: 100px;
+    max-height: 80px;
+    margin: 1px 10px 1px 0;
+    border: 1px solid #000;
+    float: left
+}
+
+#map {
+    box-shadow: 1px 2px 1px #888
+}
+
+#fbBox {
+    box-shadow: 1px 2px 1px #888;
+    border: solid 1px #bedbe9;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+#fbBoxThin {
+    box-shadow: 1px 2px 1px #888;
+    border: solid 1px #bedbe9;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+#fbBoxEnh {
+    box-shadow: 4px 4px 1px #888;
+    background-color: #f8f8f2;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#eeeef0));
+    background: -moz-linear-gradient(top,#fff 0,#eeeef0 100%);
+    background: -ms-linear-gradient(top,#fff 0,#eeeef0 100%);
+    background: linear-gradient(top,#fff 0,#eeeef0 100%);
+    background: -o-linear-gradient(top,#fff 0,#eeeef0 100%);
+    border: solid 4px #bedbe9;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+ul.bulletedlist {
+    padding-left: 10px;
+    list-style: none
+}
+
+ul.bulletedlist li {
+    line-height: 22px;
+    margin-left: 4px;
+    padding-left: 20px;
+    background: url(//cdn.hotelplanner.com/Common/images/bullet-arrow-right.png) no-repeat center left
+}
+
+#iframecontent {
+    background-color: #fff;
+    margin: 8px auto 0;
+    width: 98%;
+    padding: 0 8px 8px
+}
+
+.iframed {
+    background-color: #fff
+}
+
+.SortByBox {
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border: 5px dotted #fc0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+a.SortOptions {
+    color: #096;
+    font-weight: 700
+}
+
+a.SortOptions:hover {
+    font-weight: 700;
+    color: #f33
+}
+
+a.PaginationNext,a.PaginationNum,a.PaginationPrev {
+    padding: 2px
+}
+
+a.PaginationNext:hover,a.PaginationNum:hover,a.PaginationPrev:hover {
+    border: 1px solid gray;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -khtml-border-radius: 2px;
+    padding: 2px
+}
+
+a.PaginationNext,a.PaginationNum,a.PaginationPrev {
+    border: 1px solid #fff
+}
+
+.SearchPrice {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    color: #f90;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+.SearchPriceMedium {
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #f90;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+.SearchPriceSmall {
+    font-weight: 700;
+    font-size: 10px;
+    font-style: normal;
+    color: #f90;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+.FormHeader {
+    font-weight: 700;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #ededed;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.AccountServicesHeader {
+    font-weight: 700;
+    font-size: 11px;
+    font-style: normal;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    border-style: outset;
+    border: thin outset;
+    background-color: #e6e6dc
+}
+
+.StandardTable {
+    background-color: #e0e3e5;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #888
+}
+
+.FormError {
+    background-color: #ffc;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border-top: 1px solid #c33;
+    border-bottom: 1px solid #c33;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.SearchResults {
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border-top: 1px solid #98c1e0;
+    border-bottom: 1px solid #98c1e0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.ButtonNew {
+    background: #eee;
+    color: #690;
+    cursor: hand;
+    font-size: x-small;
+    font-weight: 700;
+    text-decoration: none;
+    border-width: 1px 2px 2px 1px;
+    border-color: #000
+}
+
+.ButtonDelete {
+    background: #eee;
+    color: #f06;
+    cursor: hand;
+    font-size: x-small;
+    font-weight: 700;
+    text-decoration: none;
+    border-width: 1px 2px 2px 1px;
+    border-color: #000
+}
+
+select.currency {
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 7pt;
+    background-color: #fff;
+    border: 1px solid #eee0b9
+}
+
+.LoginBox {
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border: 1px solid #9e9e9e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.ShadedBox {
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    border: 1px solid #9e9e9e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.FormHeaderSolid {
+    font-weight: 700;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #ededed;
+    padding-left: 35px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #000;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -khtml-border-radius: 7px
+}
+
+select.currencydetails {
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 6pt;
+    background-color: #d3d3d3;
+    border: 0 solid #eee0b9
+}
+
+.xtralarge {
+    padding: 18px 10px!important
+}
+
+.FlightsHeader {
+    width: 800px;
+    margin: 4px auto
+}
+
+#frmGroup #AutoContact {
+    padding: 1px
+}
+
+#frmGroup #AutoContact label {
+    font-size: 14px
+}
+
+#pg_HotelProfile #ContentInner,#pg_HotelProfile #MainContent,#pg_HotelProfile #iframecontent {
+    margin: 0;
+    width: 100%;
+    padding: 0
+}
+
+img#lastactive {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+    width: 0;
+    height: 0
+}
+
+.MobileSite .header-wrapper1 {
+    height: 44px;
+    font-weight: 700;
+    text-shadow: rgba(0,0,0,.7) 0 -.1rem 0;
+    border-bottom: solid .1rem rgba(0,0,0,.6);
+    color: #fff;
+    background: #1a6696;
+    background: -moz-linear-gradient(top,#1a6696 0,#074267 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#1a6696),color-stop(100%,#074267));
+    background: -webkit-linear-gradient(top,#1a6696 0,#074267 100%);
+    background: -o-linear-gradient(top,#1a6696 0,#074267 100%);
+    background: -ms-linear-gradient(top,#1a6696 0,#074267 100%);
+    background: linear-gradient(to bottom,#1a6696 0,#074267 100%);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 100
+}
+
+.MobileSite .header-wrapper1 #hbt {
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    color: #fff!important;
+    line-height: 45px;
+    height: 45px;
+    width: 80%;
+    overflow: hidden;
+    padding: 0
+}
+
+.MobileSite .header-wrapper a.left-barbutton-drawing,.MobileSite .header-wrapper1 a.left-barbutton-drawing {
+    position: absolute;
+    top: 5px;
+    top: .5rem;
+    left: 5px;
+    left: .5rem;
+    right: auto;
+    height: 30px;
+    height: 3rem;
+    width: 30px;
+    width: 3rem;
+    margin: 0;
+    padding: 0
+}
+
+.MobileSite #home-icon {
+    background-image: url(//cdn.hotelplanner.com/common/images/_HotelPlanner/bars3.png);
+    width: 21px;
+    height: 19px;
+    padding: 7px 3px;
+    background-repeat: no-repeat;
+    background-position: center right
+}
+
+.MobileSite #main-nav {
+    height: 100%;
+    width: 80%;
+    background-color: #121c23;
+    display: none;
+    position: fixed;
+    font-family: Arial,Helvetica,sans-serif;
+    left: 20%;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1060;
+    -webkit-transform: translate(0);
+    -webkit-overflow-scrolling: touch
+}
+
+.MobileSite .main-nav-animate {
+    -webkit-animation: slide 1s;
+    animation: slide 1s
+}
+
+.MobileSite #main-nav ul {
+    padding: 0;
+    margin: 0
+}
+
+.MobileSite #main-nav ul li {
+    list-style: none
+}
+
+.MobileSite #main-nav ul li a {
+    color: #e8e8e8;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #3d4952;
+    padding: 12px 15px;
+    background-color: #121c23;
+    font-weight: 700
+}
+
+@media(max-width: 767px) {
+    #frmRequest .Request-How-Works .bulleted {
+        clear:both;
+        display: block
+    }
+}
+
+#pg_RequestDetails #ContentInner,#pg_RequestDetails #MainContent {
+    max-width: 100%;
+    width: 100%
+}
+
+#pg_RequestSmart #ContentInner {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+#country-content,#currency-content {
+    display: none
+}
+
+.sprite-flags {
+    display: block;
+    display: inline-block;
+    background-image: url(//cdn.hotelplanner.com/Common/Images/allflags.png?v=3);
+    width: 16px;
+    height: 11px;
+    background-position: -137px -200px;
+    margin-top: 1px;
+    overflow: hidden
+}
+
+.sprite-flags-at {
+    background-position: 0 -540px
+}
+
+.sprite-flags-be {
+    background-position: 0 0
+}
+
+.sprite-flags-hr {
+    background-position: 0 -20px
+}
+
+.sprite-flags-cz {
+    background-position: 0 -40px
+}
+
+.sprite-flags-dk {
+    background-position: 0 -60px
+}
+
+.sprite-flags-ee {
+    background-position: 0 -80px
+}
+
+.sprite-flags-fi {
+    background-position: 0 -100px
+}
+
+.sprite-flags-fr {
+    background-position: 0 -120px
+}
+
+.sprite-flags-de {
+    background-position: 0 -140px
+}
+
+.sprite-flags-gr {
+    background-position: 0 -160px
+}
+
+.sprite-flags-hu {
+    background-position: 0 -180px
+}
+
+.sprite-flags-is {
+    background-position: 0 -200px
+}
+
+.sprite-flags-ie {
+    background-position: 0 -220px
+}
+
+.sprite-flags-it {
+    background-position: 0 -240px
+}
+
+.sprite-flags-lv {
+    background-position: 0 -260px
+}
+
+.sprite-flags-lt {
+    background-position: 0 -280px
+}
+
+.sprite-flags-nl {
+    background-position: 0 -300px
+}
+
+.sprite-flags-no {
+    background-position: 0 -320px
+}
+
+.sprite-flags-pl {
+    background-position: 0 -340px
+}
+
+.sprite-flags-pt {
+    background-position: 0 -360px
+}
+
+.sprite-flags-ru {
+    background-position: 0 -380px
+}
+
+.sprite-flags-sk {
+    background-position: 0 -400px
+}
+
+.sprite-flags-es {
+    background-position: 0 -420px
+}
+
+.sprite-flags-se {
+    background-position: 0 -440px
+}
+
+.sprite-flags-ch {
+    background-position: 0 -460px
+}
+
+.sprite-flags-tr {
+    background-position: 0 -480px
+}
+
+.sprite-flags-ua {
+    background-position: 0 -500px
+}
+
+.sprite-flags-gb {
+    background-position: 0 -520px
+}
+
+.sprite-flags-au {
+    background-position: -60px 0
+}
+
+.sprite-flags-hk {
+    background-position: -60px -420px
+}
+
+.sprite-flags-cn {
+    background-position: -60px -20px
+}
+
+.sprite-flags-jp {
+    background-position: -60px -40px
+}
+
+.sprite-flags-kr {
+    background-position: -60px -60px
+}
+
+.sprite-flags-ph {
+    background-position: -60px -80px
+}
+
+.sprite-flags-sg {
+    background-position: -60px -100px
+}
+
+.sprite-flags-tw {
+    background-position: -60px -120px
+}
+
+.sprite-flags-nz {
+    background-position: -60px -440px
+}
+
+.sprite-flags-in {
+    background-position: -60px -520px
+}
+
+.sprite-flags-my {
+    background-position: -60px -540px
+}
+
+.sprite-flags-vn {
+    background-position: -60px -680px
+}
+
+.sprite-flags-id {
+    background-position: 0 -700px
+}
+
+.sprite-flags-ar {
+    background-position: -60px -280px
+}
+
+.sprite-flags-th {
+    background-position: -60px -300px
+}
+
+.sprite-flags-cl {
+    background-position: -60px -340px
+}
+
+.sprite-flags-br {
+    background-position: -60px -140px
+}
+
+.sprite-flags-co {
+    background-position: -60px -320px
+}
+
+.sprite-flags-pe {
+    background-position: -60px -460px
+}
+
+.sprite-flags-ve {
+    background-position: -60px -360px
+}
+
+.sprite-flags-pa {
+    background-position: -60px -380px
+}
+
+.sprite-flags-gt {
+    background-position: -60px -400px
+}
+
+.sprite-flags-ca {
+    background-position: -60px -160px
+}
+
+.sprite-flags-mx {
+    background-position: -60px -180px
+}
+
+.sprite-flags-us {
+    background-position: -60px -200px
+}
+
+.sprite-flags-bz {
+    background-position: 0 -560px
+}
+
+.sprite-flags-bo {
+    background-position: -60px -560px
+}
+
+.sprite-flags-cr {
+    background-position: 0 -580px
+}
+
+.sprite-flags-ec {
+    background-position: -60px -580px
+}
+
+.sprite-flags-gf {
+    background-position: 0 -600px
+}
+
+.sprite-flags-gy {
+    background-position: -60px -600px
+}
+
+.sprite-flags-hn {
+    background-position: 0 -620px
+}
+
+.sprite-flags-ni {
+    background-position: -60px -620px
+}
+
+.sprite-flags-py {
+    background-position: 0 -640px
+}
+
+.sprite-flags-sr {
+    background-position: -60px -640px
+}
+
+.sprite-flags-uy {
+    background-position: 0 -660px
+}
+
+.sprite-flags-sv {
+    background-position: -60px -660px
+}
+
+.sprite-flags-il {
+    background-position: -60px -220px
+}
+
+.sprite-flags-za {
+    background-position: -60px -240px
+}
+
+.sprite-flags-tt {
+    background-position: -60px -700px
+}
+
+.sprite-flags-do {
+    background-position: 0 -720px
+}
+
+.sprite-flags-aw {
+    background-position: -60px -720px
+}
+
+.sprite-flags-bb {
+    background-position: 0 -740px
+}
+
+.sprite-flags-jm {
+    background-position: -60px -740px
+}
+
+.sprite-flags-blank,sprite-flags-as {
+    background-position: -60px -480px
+}
+
+.sprite-flags-blank-white {
+    background-position: -60px -500px
+}
+
+.sprite-flags-pr {
+    background-position: 0 -760px
+}
+
+.sprite-flags-gu {
+    background-position: 0 -860px
+}
+
+.sprite-flags-bw {
+    background-position: -60px -860px
+}
+
+.sprite-flags-ke {
+    background-position: 0 -880px
+}
+
+.sprite-flags-na {
+    background-position: -60px -880px
+}
+
+.sprite-flags-ug {
+    background-position: 0 -900px
+}
+
+.sprite-flags-zm {
+    background-position: -60px -900px
+}
+
+.sprite-flags-zw {
+    background-position: 0 -920px
+}
+
+.sprite-flags-cy {
+    background-position: -60px -920px
+}
+
+.sprite-flags-hu {
+    background-position: 0 -780px
+}
+
+.sprite-flags-is {
+    background-position: -60px -780px
+}
+
+.sprite-flags-lv {
+    background-position: 0 -800px
+}
+
+.sprite-flags-mt {
+    background-position: -60px -800px
+}
+
+.sprite-flags-ro {
+    background-position: 0 -820px
+}
+
+.sprite-flags-rs {
+    background-position: -60px -820px
+}
+
+.sprite-flags-si {
+    background-position: 0 -840px
+}
+
+header a#viewres-wl,header a#viewres-wl:link,header a#viewres-wl:visited {
+    border: 1px solid #d5dee1;
+    display: inline-block;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #7b7b7b;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05)
+}
+
+#tab12 {
+    overflow: hidden
+}
+
+#tab12 .service-item {
+    position: relative;
+    padding: 10px;
+    padding-left: 175px;
+    text-align: left;
+    min-height: 80px;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#tab12 .service-item h2 {
+    padding: 0;
+    margin: 0
+}
+
+#tab12 .service-item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 150px;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+#tab12 .service-item a img {
+    width: 100%;
+    height: auto;
+    max-height: 65px
+}
+
+@media (max-width: 767px) {
+    #tab12 .service-item {
+        padding:0;
+        margin-bottom: 25px
+    }
+
+    #tab12 .service-item h2 {
+        margin-bottom: 10px
+    }
+
+    #tab12 .service-item a {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        text-align: center;
+        max-width: none
+    }
+
+    #tab12 .service-item a img {
+        max-width: 120px!important
+    }
+}
+
+
+@charset "UTF-8";
+
+/* Landing Page */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	}
+
+#landingpage {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 14px;
+	
+}
+#landingpage .tab-panel #ViewChange { position:absolute; right:30px;top:60px; }
+#landingpage #ViewChange a {
+color: rgb(104, 104, 126);
+display: block;
+}
+#landingpage div, #landingpage span, #landingpage label{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	}
+
+#landingpage label {
+	margin-bottom: 3px;
+	font-size: 14px;
+	display: block;
+	}
+
+
+#landingpage h1 { font-size:1em; font-weight:600; color: #333}
+
+#landingpage #Section1 h2 {
+	font-weight: 600;
+	color: #fff;
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	}
+
+
+#landingpage #Section2 h2 {
+	font-size: 25px;
+	font-weight: 600; 
+	color: #2d3e50;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	}
+
+
+#landingpage #Section2 .topic{font-weight:bold}
+#landingpage #Section2 ul.advantages{padding:0px;margin:0;list-style-type:none}
+#landingpage #Section2 ul.advantages li{
+	margin:0; 
+	padding:5px 0px 0px 30px; 
+	background: url('//cdn.hotelplanner.com/Common/Images/greencheck-16.png') no-repeat left;min-height:22px;
+	}
+
+#landingpage #SearchSection { display:block; height: 450px;width:100%; text-align:center; padding-top:50px; clear:both}
+#landingpage .container{width:960px; margin:0 auto } 
+
+#landingpage #Section1 {
+	z-index:800;
+	text-align: center;
+	padding: 30px 5%;
+
+	color: #fff;
+	position: absolute; 
+	top: 550px;
+	left: 50%;
+	margin-left: -480px;
+
+	overflow: hidden;
+	font-size: 16px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	 
+    width: 100%;
+    max-width: 960px;
+	}
+
+#landingpage #SearchSection #tab1 {height:195px; padding-top:40px}
+#landingpage #SearchSection #tab2 {height:265px;padding-top:20px}
+#landingpage #SearchSection #tab3 {height:260px}
+#landingpage #SearchSection #tab4 {height:160px;padding: 15px 7px}
+#landingpage #SearchSection #tab5 {height:170px;padding-top:40px}
+#landingpage #SearchSection #tab6 {height:170px;padding-top:40px}
+
+#landingpage .firstInput {padding-bottom:5px}
+#landingpage .last-column {margin-right:0px}
+#landingpage .submitButtonWrapper{
+	clear:both;
+	float: none;
+	overflow: hidden;
+	}
+
+
+#landingpage .submitButtonWrapper button { float: right }
+
+#landingpage #SecondaryContent { background: rgb(242,242,242); width:100%; padding: 75px 0px 40px 0px}
+#landingpage #SecondaryContent p{padding-top:10px}
+#landingpage #text{ width:440px; height:auto; padding-right: 75px; float:left}
+#landingpage #theme-image{ width:324px; height: 216px; float:left; background-position: center center !important}
+#landingpage #Section2{  
+	padding:56px; overflow:auto; background: #FFF; 
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	}
+	
+header { min-height: 75px; }
+
+#SearchSection form * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+
+	
+#landingpage .input-group {
+	float:left;
+	padding-right: 10px;
+	text-align:left;
+	width: 25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+
+
+#landingpage .input-group .calIcon {width:1px;margin:0 0 0 -1px !important}
+#landingpage .input-group-xl {  text-align:left; }
+#landingpage .input-group-xl input { 
+	width: 100%; 
+	text-align:left;
+	padding:12px 15px; 
+	border-radius:2px; 
+	color:#333;
+	border: 1px solid #CCC;
+	font-size: 16px;
+	margin-bottom: 15px;
+	}
+#landingpage .input-group br,
+#landingpage .input-group-xl br { display: none }
+
+ 
+
+#landingpage .input-group input,
+#landingpage .styled-select { 
+	border: 1px solid #CCC;
+	width: 100%;
+	padding: 12px 15px;
+	border-radius:2px;
+	color:#333;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+
+#landingpage .submit { 
+	cursor: pointer;
+	color:white;
+	font-size: 16px;
+	background: #e36719;
+	padding: 13px 65px;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	border: none;
+	margin-top:15px;
+	}
+
+
+#landingpage #frmFlights .submit {float:left}
+
+#frmShuttle { overflow: hidden; text-align: left }
+
+#landingpage #frmShuttle  .input-group {
+	float: none;
+	width: 100%;
+	margin-top: 12px;
+	}
+
+#landingpage .submit:hover{ background: #ffa85b; }
+#landingpage .date{ background: url(//cdn.hotelplanner.com/Common/Images/date-icon.png) no-repeat right center white}
+#landingpage .submit:active{ margin-top:13px}
+#landingpage .form-control:-moz-placeholder { color: #c0c4ca; font-weight:400; }
+#landingpage .form-control::-moz-placeholder { color: #c0c4ca; font-weight:400; opacity: 1; }
+#landingpage .form-control:-ms-input-placeholder { color: #c0c4ca; font-weight:400; }
+#landingpage .form-control::-webkit-input-placeholder {color: #c0c4ca; font-weight:400; }
+
+#landingpage .styled-select {
+   overflow: hidden;
+   padding: 0px;
+   background: url('//cdn.hotelplanner.com/Common/Images/new-arrow.png');
+   background-repeat: no-repeat;
+   background-position: right center;
+   background-color: #fff;
+   border-radius:3px;
+   border: 1px solid #CCC;
+   }
+
+#landingpage .styled-select select {
+	background: transparent;
+	width: 100%;
+	padding: 12px 15px;
+	padding-right: 23px;
+	font-size: 15px;
+	
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance:window;
+    text-indent: 0.01px;
+    text-overflow: '';
+	}
+
+#landingpage .form-separation{ clear:both; height:10px; width:100%}
+
+#landingpage .tabs { width:750px; /*height:200px;*/ display:block;position:relative;margin: 0 auto; z-index: 200;}
+#landingpage .tab-panel {
+	display: none;
+	border-width: 0;
+	padding: 30px;
+	background:#F0F0F0;
+	background: rgba(240, 240, 240, 0.95);
+	
+	-webkit-border-radius: 0 5px 5px 5px;
+	-moz-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+
+
+	}
+	
+
+
+
+
+
+#landingpage .tab-panel.currentTab { display:block; height: auto !important }
+
+ul.tab-links { 
+	margin: 0px;
+	padding: 0;
+	text-align: left;
+	overflow: hidden;
+	}
+
+#landingpage .rs_air_options label { display: inline }
+
+ul.tab-links li {
+	display: block;
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 0;
+	margin-right: 3px;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+	}
+	
+ul.tab-links li a {
+	display: block;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px 14px;
+	font-size: 15px;
+	text-decoration:none;
+	font-family: helvetica, arial, sans-serif;
+	}
+
+/** Default **/
+#landingpage #Section1 { background: #44505c}
+#landingpage #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/default-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/default-img.jpg) no-repeat; border-bottom: 5px solid #ffd800; border: 0px solid transparent !important; }
+#landingpage .submit{ background: #6297bf}
+#landingpage .submit:hover{ background: #63a6d9}
+#landingpage ul.tab-links li a:hover{
+	background: #59606d;/* Background Tabs Hover*/
+}
+#landingpage ul.tab-links li a{
+	background: #19567e; /* Background Tabs*/
+}
+#landingpage ul.tab-links li a.current, #landingpage ul.tab-links li a.current:hover, #landingpage ul.tab-links li a.current:link, #landingpage ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer { background: #26b7e1}
+
+/** Individual Travel **/
+header.individual-travel { border-top: 4px solid #11b0de}
+#landingpage.individual-travel #Section1{ background: #19567e}
+#landingpage.individual-travel #SearchSection{background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/individual-bg.jpg) center top no-repeat; background-size: cover;}
+#landingpage.individual-travel #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/individual-img.jpg) no-repeat; border-bottom: 5px solid #11b0de }
+#landingpage.individual-travel .submit{ background: #11b0de}
+#landingpage.individual-travel .submit:hover{ background: #35c0ee}
+#landingpage.individual-travel ul.tab-links li a:hover{
+	background: #1a6ea5;/* Background Tabs Hover*/
+}
+#landingpage.individual-travel ul.tab-links li a{
+	background: #19567e; /* Background Tabs*/
+}
+#landingpage.individual-travel ul.tab-links li a.current, #landingpage.individual-travel ul.tab-links li a.current:hover, #landingpage.individual-travel ul.tab-links li a.current:link, #landingpage.individual-travel ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.individual-travel { background: #26b7e1}
+
+/** Baseball ( Youth Boys) **/
+header.baseball{ border-top: 4px solid orange}
+#landingpage.baseball #Section1 { background: rgb(19,34,64);}
+#landingpage.baseball #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/baseball-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.baseball #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/baseball-img.jpg) no-repeat; border-bottom: 5px solid #f5853f}
+#landingpage.baseball ul.tab-links li a:hover{
+	background: #6079a4;/* Background Tabs Hover*/
+}
+#landingpage.baseball ul.tab-links li a{
+	background: rgb(88,105,134); /* Background Tabs*/
+}
+#landingpage.baseball ul.tab-links li a.current, #landingpage.baseball ul.tab-links li a.current:hover, #landingpage.baseball ul.tab-links li a.current:link, #landingpage.baseball ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.baseball {background: #e36719}
+
+/** Wedding **/
+header.wedding{ border-top: 4px solid #8cb252}
+#landingpage.wedding #Section1 { background: #f16d6d}
+#landingpage.wedding #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/wedding-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.wedding #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/wedding-img.jpg) no-repeat; border-bottom: 5px solid #f16d6d}
+#landingpage.wedding .submit{ background: #57534b}
+#landingpage.wedding .submit:hover{ background: #7b7362}
+#landingpage.wedding ul.tab-links li a:hover{
+	background: #93c04e;/* Background Tabs Hover*/
+}
+#landingpage.wedding ul.tab-links li a{
+	background: #8cb252; /* Background Tabs*/
+}
+#landingpage.wedding ul.tab-links li a.current, #landingpage.wedding ul.tab-links li a.current:hover, #landingpage.wedding ul.tab-links li a.current:link, #landingpage.wedding ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.wedding {background: #57534b}
+
+/** Corporate - Meetings **/
+header.corporate-meetings{ border-top: 4px solid #11b0de}
+#landingpage.corporate-meetings #Section1 { background: #23d0ed}
+#landingpage.corporate-meetings #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/corp-meetings-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.corporate-meetings #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/corp-meetings-img.jpg) no-repeat; border-bottom: 5px solid #11b0de}
+#landingpage.corporate-meetings .submit{ background: #11b0de}
+#landingpage.corporate-meetings .submit:hover{ background: #10c1f4}
+#landingpage.corporate-meetings ul.tab-links li a:hover{
+	background: #4c4c4c;/* Background Tabs Hover*/
+}
+#landingpage.corporate-meetings ul.tab-links li a{
+	background: #2f2f2f; /* Background Tabs*/
+}
+#landingpage.corporate-meetings ul.tab-links li a.current, #landingpage.corporate-meetings ul.tab-links li a.current:hover, #landingpage.corporate-meetings ul.tab-links li a.current:link, #landingpage.corporate-meetings ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.corporate-meetings {background: #2a2a2a}
+
+/** School **/
+header.school{ border-top: 4px solid #eea334}
+#landingpage.school #Section1 { background: #eea334}
+#landingpage.school #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/school-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.school #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/school-img.jpg) no-repeat; border-bottom: 5px solid #bfbfbf}
+#landingpage.school .submit{ background: #89abc3}
+#landingpage.school .submit:hover{ background: #6990ac}
+#landingpage.school ul.tab-links li a:hover{
+	background: #69808f;/* Background Tabs Hover*/
+}
+#landingpage.school ul.tab-links li a{
+	background: #59666f; /* Background Tabs*/
+}
+
+
+#landingpage.school ul.tab-links li a.current,
+#landingpage.school ul.tab-links li a.current:hover,
+#landingpage.school ul.tab-links li a.current:link,
+#landingpage.school ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+	display: block;
+	padding: 10px;
+	}
+	
+	
+footer.school { background: #616161 }
+
+/** Track **/
+header.track{ border-top: 4px solid #eea334}
+#landingpage.track #Section1 { background: #eea334}
+#landingpage.track #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/track-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.track #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/track-img.jpg) no-repeat; border-bottom: 5px solid #bfbfbf}
+#landingpage.track .submit{ background: #89abc3}
+#landingpage.track .submit:hover{ background: #6990ac}
+#landingpage.track ul.tab-links li a:hover{
+	background: #69808f;/* Background Tabs Hover*/
+}
+#landingpage.track ul.tab-links li a{
+	background: #59666f; /* Background Tabs*/
+}
+#landingpage.track ul.tab-links li a.current, #landingpage.track ul.tab-links li a.current:hover, #landingpage.track ul.tab-links li a.current:link, #landingpage.track ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.track {background: #616161}
+
+
+/** Tour Bus **/
+header.tour-bus{ border-top: 4px solid #9ea6a8}
+#landingpage.tour-bus #Section1 { background: #d42010}
+#landingpage.tour-bus #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/tour-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.tour-bus #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/tour-img.jpg) no-repeat; border-bottom: 5px solid #c8ced0}
+#landingpage.tour-bus .submit{ background: #ffc600}
+#landingpage.tour-bus .submit:hover{ background: #e9b70a}
+#landingpage.tour-bus ul.tab-links li a:hover{
+	background: #3c3c3c;/* Background Tabs Hover*/
+}
+#landingpage.tour-bus ul.tab-links li a{
+	background: #202020; /* Background Tabs*/
+}
+#landingpage.tour-bus ul.tab-links li a.current, #landingpage.tour-bus ul.tab-links li a.current:hover, #landingpage.tour-bus ul.tab-links li a.current:link, #landingpage.tour-bus ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.tour-bus {background: #9ea6a8}
+
+/** Softball Girls **/
+header.softball{ border-top: 4px solid #ffc600;}
+#landingpage.softball #Section1 { background: #b3195e}
+#landingpage.softball #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/softball-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.softball #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/softball-img.jpg) no-repeat; border-bottom: 5px solid #ffc600}
+#landingpage.softball .submit{ background: #ffc600}
+#landingpage.softball .submit:hover{ background: #e9b70a}
+#landingpage.softball ul.tab-links li a:hover{
+	background: #5c639c;/* Background Tabs Hover*/
+}
+#landingpage.softball ul.tab-links li a{
+	background: #454a73; /* Background Tabs*/
+}
+#landingpage.softball ul.tab-links li a.current, #landingpage.softball ul.tab-links li a.current:hover, #landingpage.softball ul.tab-links li a.current:link, #landingpage.softball ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.softball {background: #454a73}
+
+/** Construction **/
+header.construction { border-top: 4px solid #ecba0c}
+#landingpage.construction #Section1 { background: #272224}
+#landingpage.construction #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/construction-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.construction #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/construction-img.jpg) no-repeat; border-bottom: 5px solid #faca23}
+#landingpage.construction .submit{ background: #ecba0c}
+#landingpage.construction .submit:hover{ background: #faca23}
+#landingpage.construction ul.tab-links li a:hover{
+	background: #585858;/* Background Tabs Hover*/
+}
+#landingpage.construction ul.tab-links li a{
+	background: #454a73; /* Background Tabs*/
+}
+#landingpage.construction ul.tab-links li a.current, #landingpage.construction ul.tab-links li a.current:hover, #landingpage.construction ul.tab-links li a.current:link, #landingpage.construction ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.construction {background: #cda92d}
+
+/** Bowling **/
+header.bowling { border-top: 4px solid #89abc3}
+#landingpage.bowling #Section1 { background: #c61328}
+#landingpage.bowling #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/bowling-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.bowling #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/bowling-img.jpg) no-repeat; border-bottom: 5px solid #668ba4}
+#landingpage.bowling .submit{ background: #89abc3}
+#landingpage.bowling .submit:hover{ background: #a0c8e5}
+#landingpage.bowling ul.tab-links li a:hover{
+	background: #585858;/* Background Tabs Hover*/
+}
+#landingpage.bowling ul.tab-links li a{
+	background: #272224; /* Background Tabs*/
+}
+#landingpage.bowling ul.tab-links li a.current, #landingpage.bowling ul.tab-links li a.current:hover, #landingpage.bowling ul.tab-links li a.current:link, #landingpage.bowling ul.tab-links li a.current:visited {
+	color: #19567e; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96);
+}
+footer.bowling {background: #89abc3}
+
+/** Racing **/
+header.racing{ border-top: 4px solid #e02121}
+#landingpage.racing #Section1 { background: #2d2d2d}
+#landingpage.racing #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/race-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.racing #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/race-img.jpg) no-repeat; border-bottom: 5px solid #e02121}
+#landingpage.racing .submit{ background: #e02121}
+#landingpage.racing .submit:hover{ background: #f04343}
+#landingpage.racing ul.tab-links li a:hover{
+               background: #eb5f5f;/* Background Tabs Hover*/
+}
+#landingpage.racing ul.tab-links li a{
+                background: #2d2d2d;/* Background Tabs*/
+}
+#landingpage.racing ul.tab-links li a.current, #landingpage.racing ul.tab-links li a.current:hover, #landingpage.racing ul.tab-links li a.current:link, #landingpage.racing ul.tab-links li a.current:visited {
+                color: #333; /* Active tab */
+                background: #F0F0F0;
+			 background:rgba(240, 240, 240, 0.96);
+}
+footer.racing {background: #e02121}
+
+/** College **/
+header.college {border-top: 4px solid #f4ad5a}
+#landingpage.college #Section1 {background: #0b90c8}
+#landingpage.college #SearchSection {
+	background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/college-bg.jpg) center top no-repeat; background-size: cover;
+}
+#landingpage.college #theme-image{ 
+	background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/default-img.jpg) no-repeat; border-bottom: 5px solid #f4ad5a;
+}
+#landingpage.college ul.tab-links li a:hover{
+     background: #156c91; 	/* Background Tabs Hover*/
+}
+#landingpage.college ul.tab-links li a{
+    background: #02425d; /* Background Tabs*/
+}
+#landingpage.college .submit{background: #f4ad5a}
+#landingpage.college .submit:hover{background: #eea146}
+#landingpage.college ul.tab-links li a.current, 
+#landingpage.college ul.tab-links li a.current:hover, 
+#landingpage.college ul.tab-links li a.current:link, 
+#landingpage.college ul.tab-links li a.current:visited {
+                color: #333; /* Active tab */
+                background:#F0F0F0;
+			 background:rgba(240, 240, 240, 0.96);
+}
+footer.college {background: #02425d}
+
+/** Oil **/
+header.oil { border-top: 4px solid #eea334}
+#landingpage.oil #Section1 { background: #eea334}
+#landingpage.oil #SearchSection { background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/oil-bg.jpg) center top no-repeat; background-size: cover}
+#landingpage.oil #theme-image{ background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/oil-img.jpg) no-repeat; border-bottom: 5px solid #89abc3}
+#landingpage.oil .submit{ background: #89abc3}
+#landingpage.oil .submit:hover{ background: #7596ae}
+#landingpage.oil ul.tab-links li a:hover{
+                background: #6e7b85;/* Background Tabs Hover*/
+}
+#landingpage.oil ul.tab-links li a{
+                background: #59666f; /* Background Tabs*/
+}
+#landingpage.oil ul.tab-links li a.current, #landingpage.oil ul.tab-links li a.current:hover, #landingpage.oil ul.tab-links li a.current:link, #landingpage.oil ul.tab-links li a.current:visited {
+                color: #333; /* Active tab */
+                background:#F0F0F0;
+			 background:rgba(240, 240, 240, 0.96);
+}
+footer.oil {background: #32393e}
+
+/** Basketball **/
+header.basketball { border-top: 4px solid #ffc000}
+#landingpage.basketball #Section1 { background: #036eb2}
+#landingpage.basketball #SearchSection {
+				background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/basketball-bg.jpg) center top no-repeat; background-size: cover
+}
+#landingpage.basketball #theme-image{ 
+				background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/basketball-img.jpg) no-repeat; border-bottom: 5px solid #89abc3
+}
+#landingpage.basketball ul.tab-links li a:hover{
+                background: #1986cc; 	/* Background Tabs Hover*/
+}
+#landingpage.basketball ul.tab-links li a{
+                background: #036eb2; /* Background Tabs*/
+}
+
+#landingpage.basketball .submit{ background: #89abc3}
+#landingpage.basketball .submit:hover{ background: #7596ae}
+
+#landingpage.basketball ul.tab-links li a.current, #landingpage.basketball ul.tab-links li a.current:hover, #landingpage.basketball ul.tab-links li a.current:link, #landingpage.basketball ul.tab-links li a.current:visited {
+                color: #333; /* Active tab */
+                background:#F0F0F0;
+			 background:rgba(240, 240, 240, 0.96);
+}
+footer.basketball {background: #00253c}
+
+/** Recovery **/
+header.recovery { border-top: 4px solid #b7d3b9}
+#landingpage.recovery #Section1 { background: #2f8499}
+#landingpage.recovery #SearchSection {
+				background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/recovery-bg.jpg) center top no-repeat; background-size: cover;
+}
+#landingpage.recovery #theme-image{ 
+				background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/recovery-img.jpg) no-repeat; border-bottom: 5px solid #b7d3b9;
+}
+#landingpage.recovery ul.tab-links li a:hover{
+                background: #465457; 	/* Background Tabs Hover*/
+}
+#landingpage.recovery ul.tab-links li a{
+                background: #293133; /* Background Tabs*/
+}
+
+#landingpage.recovery .submit{ background: #89abc3}
+#landingpage.recovery .submit:hover{ background: #7596ae}
+
+#landingpage.recovery ul.tab-links li a.current, 
+#landingpage.recovery ul.tab-links li a.current:hover, 
+#landingpage.recovery ul.tab-links li a.current:link, 
+#landingpage.recovery ul.tab-links li a.current:visited {
+                color: #333; /* Active tab */
+                background:#F0F0F0;
+			 background:rgba(240, 240, 240, 0.96);
+}
+footer.recovery {background: #293133}
+
+/** inspectors **/
+header.inspectors { border-top: 4px solid #f4ad5a} 
+#landingpage.inspectors #Section1 { background: #0673a0} 
+#landingpage.inspectors #SearchSection {
+	background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/inspectors-bg.jpg) center top no-repeat; background-size: cover; } 
+#landingpage.inspectors #theme-image{ 
+	background: url(//cdn.hotelplanner.com/Common/Images/Themes/Home/inspectors-img.jpg) no-repeat; border-bottom: 5px solid #f4ad5a; }
+#landingpage.inspectors ul.tab-links li a:hover{
+     background: #156c91; 	/* Background Tabs Hover*/
+}
+#landingpage.inspectors ul.tab-links li a{
+     background: #02425d; /* Background Tabs*/ 
+}
+#landingpage.inspectors .submit{ background: #f4ad5a} 
+#landingpage.inspectors .submit:hover{ background: #eea146}
+#landingpage.inspectors ul.tab-links li a.current, #landingpage.inspectors ul.tab-links li a.current:hover, #landingpage.inspectors ul.tab-links li a.current:link, #landingpage.inspectors ul.tab-links li a.current:visited {
+	color: #333; /* Active tab */
+	background:#F0F0F0;
+	background:rgba(240, 240, 240, 0.96); 
+	} 
+footer.inspectors {background: #02425d}
+
+
+#landingpage.soccer #theme-image { border-color: #2dae5c }
+
+
+/*#landingpage.soccer #Section1 { background-color: #5a5f31 }*/
+
+footer.soccer { background-color: #44505c }
+
+#landingpage.soccer #SearchSection { background-image: url('//cdn.hotelplanner.com/Common/Images/Themes/Home/soccer-bg.jpg')}
+#landingpage.soccer #theme-image { background-image: url('//cdn.hotelplanner.com/Common/Images/Themes/Home/soccer-img.jpg')}
+
+#landingpage.soccer .submit { background: #2dae5c; }
+
+#landingpage.soccer ul.tab-links li a { background: #21693b; }
+
+
+/* Responsive */
+#landingpage .input-group-xl input,#landingpage .input-group input{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#landingpage ul.tab-links{font-weight:700}
+
+/*#landingpage ul.tab-links li{margin:2px .2em 0 0}*/
+
+@media (max-width: 960px) {
+	
+	#landingpage .container{width:100%;max-width:960px}
+
+	#landingpage #Section2 {padding:50px 20px;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	#landingpage #SearchSection {height:auto}
+	
+	#landingpage .tabs{width:95%;margin:0;height:auto;text-align:left;display:block;margin:0 auto;display:inline-block}#landingpage .input-group input,#landingpage .styled-select{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	#landingpage .input-group input,
+	#landingpage .styled-select select{padding-left:10px}
+	
+	#landingpage .styled-select select { width:100%;padding-right:50px}
+	
+	#landingpage .input-group-xl {padding:0!important}#landingpage .tab-panel{padding:3%;box-sizing:border-box;height:auto!important;overflow:hidden}
+	
+	#landingpage .input-group label,
+	#landingpage .input-group-xl label{height:auto;padding:0;font-weight:700;font-size:12px;text-transform:uppercase}
+	
+	
+	
+	#landingpage .input-group-xl input,
+	#landingpage .input-group input {width:100%; }
+	
+	#landingpage #theme-image{ display:inline-block;float:none;margin-left:30px;height:170px}
+	#landingpage #text {float:none;padding:0;display:inline-block;text-align:left;width:auto;margin:0 auto}
+	
+	#landingpage .tab-panel{padding:20px!important;position:relative}
+	
+	#landingpage.eventpagemode #tab7.tab-panel{padding:20px!important;position:relative}
+	
+	#landingpage .tab-panel #ViewChange{ top:10px;font-size:11px;right:20px;top:5px}
+	
+	#landingpage .submit{box-sizing:border-box;float:none;width:100%;font-size:15px;text-transform:uppercase;text-align:center}
+	
+	#landingpage #SecondaryContent{padding:0}
+	
+	#landingpage #Section2 h2{font-size:20px}
+	
+	#landingpage #Section2 ul.advantages li{min-height:22px;font-size:11px;background-size:13px auto;padding-left:20px;min-height:16px}
+	
+	#landingpage #SearchSection { padding: 80px 0; }
+	
+	#landingpage #Section1{
+		position:relative;
+		margin:0;
+		left:auto;
+		top:0;
+		width:100%;
+		z-index:1;
+		}
+	
+	#landingpage ul.tab-links{overflow:hidden;padding-bottom:0}
+	
+	#landingpage ul.tab-links li a { display:block;padding:12px 10px;margin-top:0;border-top:1px solid rgba(255,255,255,0.15)}
+	
+	table.Rounded { width:100%}table.Rounded td{display:block}
+	
+	table.Rounded img { margin-bottom:11px;width:120px!important;height:auto}#GroupDisplay{margin:0!important}#landingpage .input-group{width:20%}
+	
+	}
+	
+	@media (max-width: 767px){ 
+		
+		#landingpage .tabs { max-width:350px}
+		
+		#landingpage ul.tab-links li{display:block;margin:0;float:none}
+		
+		#landingpage #frmGroup{display:inline-block;margin:0 auto;width:100%;max-width:380px;margin-top:15px}
+		
+		#landingpage .input-group {width:100%;float:none; margin-bottom: 12px; }
+		
+		#landingpage .tabs {margin-left:0}
+		
+		#landingpage #theme-image{display:none}
+		
+		#landingpage #text {margin:0 auto;clear:both}
+		
+		#landingpage ul.tab-links li {height: 40px} 
+		
+		#landingpage .tab-panel #ViewChange {position:absolute; top:0px}
+		
+		#landingpage #ViewChange a{ color:#68687E;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:6px 9px; border:1px solid #c5c5c5 }
+		
+		#landingpage ul.tab-links li a { padding-bottom:  20px; }
+		
+}
+		
+		
+		
+#landingpage .rs_car_form label { display: inline-block }
+#landingpage .rs_car_form .rs_pickup { margin-bottom: 10px }	
+		
+		
+.rs_car_form #rs_multi .tab-panel .rs_autosuggest, 
+.rs_car_form #rs_multi .tab-panel .rs_from, 
+.rs_car_form #rs_multi .tab-panel .rs_to {
+	width: 100%;
+	}	
+		
+		
+#landingpage #IntroSection h2,
+#landingpage #IntroSection p {
+	max-width: 75%;
+	margin: 0 auto;
+	color: #fff;
+	}
+
+#landingpage #IntroSection { 
+	background-color: #28323c;
+	padding: 40px 0;
+	text-align: center;
+	}
+
+#landingpage #IntroSection h2 {
+	font-weight: 600;
+	color: #fff;
+	font-size: 25px;
+	padding: 0;
+
+	margin-bottom: 10px;
+	}
+
+
+#landingpage #IntroSection p { font-size: 18px }
+
+
+#landingpage #UpcomingEvents {
+    padding: 35px 0 40px 0;
+    border-top: 5px solid #28323c;
+}
+#landingpage #UpcomingEvents div.scroll {
+    Max-height:350px;
+    Overflow:auto;
+}
+
+#landingpage #UpcomingEvents h2 {
+    margin-top: 0;
+}
+#landingpage #UpcomingEvents ul,
+#landingpage #UpcomingEvents ul li {
+    margin: 0; padding: 0; list-style: none;
+}
+#landingpage #UpcomingEvents ul li {
+    margin-bottom: 25px;
+    padding-left: 44px;
+    position: relative;
+}
+#landingpage #UpcomingEvents ul li:last-of-type {
+    margin-bottom: 0;
+}
+#landingpage #UpcomingEvents ul li i.fa-calendar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 31px;
+}
+#landingpage #UpcomingEvents ul li a.title {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+#landingpage #UpcomingEvents ul li span.dates {
+    padding-top: 5px;
+}
+#landingpage #UpcomingEvents ul li span.location {
+    padding-top: 5px;
+    padding-left: 25px;
+}
+#landingpage #UpcomingEvents ul li span.location i {
+    padding-right: 2px;
+}
+#landingpage #UpcomingEvents ul li p {
+    margin: 10px 0 0 0;
+}
+#landingpage #UpcomingEvents .showHotels {
+    margin-top: 10px;
+    display:  block;
+}
+#landingpage #SearchSection #event-list-container ul,
+#landingpage #SearchSection #event-list-container ul li {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#landingpage #SearchSection #event-list-container ul li {
+    text-align: left !important;
+    padding-bottom: 3px;
+}
+#landingpage #SearchSection #event-list-container ul li:last-of-type {
+    padding-bottom: 0;
+}
+#landingpage #SearchSection #event-list-container ul li i.fa-calendar {
+    padding-right: 5px;
+}
+
+
+@media (max-width: 960px) {
+    #landingpage #UpcomingEvents h2 { margin-left: 20px; }
+    #landingpage #UpcomingEvents ul { margin: 0 20px; }
+    #landingpage #UpcomingEvents ul li span.location {
+        display: block;
+        padding-left: 0;
+    }
+    #landingpage #UpcomingEvents ul li {
+        padding-left: 0;
+    }
+    #landingpage #UpcomingEvents ul li i.fa-calendar {
+        display: none;
+    }
+}
+
+
+#landingpage #AdvantagesSection { padding: 75px 0 }
+
+#landingpage #AdvantagesSection #Section2 { 
+	padding: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	}
+
+
+
+#landingpage  #AdvantagesSection #theme-image { 
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+
+
+footer small { display: block; margin-top: 8px; font-size: 13px; }
+
+
+
+#SearchSection a.bulleted:link,
+#SearchSection a.bulleted:visited {
+	background-image: none;
+	display: block;
+	background-color: #6297bf;
+	color: #fff;
+	padding: 10px;
+	max-width: 300px;
+	font-size: 14px;
+	
+	margin: 0 auto;
+	margin-bottom: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+
+#SearchSection a.bulleted:hover {text-decoration: none }
+
+a.car-logo img{width:100%;max-width:300px}
+
+
+.rs_air_form { margin-top: 0 !important }
+
+
+
+.BusLogoLink { display: inline-block; text-align: center; margin-bottom: 8px }
+.BusLogoLink img { display: inline-block; margin: 0 auto }
+
+#landingpage #frmBus .input-group { width: 100%; text-align: center; }
+
+#landingpage #frmBus .submitButtonWrapper button { float: none }
+
+
+#landingpage #text {
+	width: 50%;
+	padding-left: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+#landingpage #theme-image {
+	width: 50%;
+	float: right;
+	margin: 0;
+	}
+	
+
+
+
+@media (max-width: 767px) {	
+	
+	#landingpage #text { 
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+		}
+	
+	
+	body #landingpage .other-flight-options { margin: 20px 0 !important; float: none !important }
+	
+	#landingpage input { background-image: none !important }
+	
+}
+
+
+@media (max-width: 480px) {
+
+}
+
+
+#rs_multi .tab-panel .rs_autosuggest,
+#rs_multi .tab-panel .rs_from, #rs_multi .tab-panel .rs_to,
+#rs_multi .tab-panel .rs_chk_in,
+#rs_multi .tab-panel .rs_chk_out { width: 100% !important }
+
+#rs_multi .tab-panel .rs_date, #rs_multi .tab-panel .rs_people { float: left }
+
+#different_return {
+	padding: 0;
+	margin: 0;
+	}
+
+#landingpage .checkboxquestion label,
+#landingpage .checkboxquestion input {
+	width: auto;
+	display: inline-block;
+	}
+	
+	
+.ShuttleLogoLink {
+	display: inline-block;
+	max-width: 220px;
+	margin-bottom: 10px;
+	}
+.ShuttleLogoLink img { 
+	max-width: 100%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 4px;
+	}
+
+#landingpage.eventpagemode #IntroSection,
+#landingpage.eventpagemode #UpcomingEvents,
+#landingpage.eventpagemode #AdvantagesSection{display:none}
+
+
+
+#landingpage.eventpagemode #SearchSection {
+	height: auto;
+	padding: 110px 0;
+	}
+
+
+	
+
+#landingpage.eventpagemode .tabs {
+	width: 100%;
+	height: auto;
+	}
+
+
+#landingpage.eventpagemode #iframecontent {
+    background-color: #fff !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+	}
+
+#EventsIframe { width:100%;height:650px;border:0 }
+@media (max-width: 991px) {
+	#landingpage.eventpagemode .tabs { max-width: 90% }
+}
+@media (max-width: 550px) {
+	#EventsIframe #event-header .event-wrapper { padding: 20px }
+}
+
+#FlightsIframe{width:100%;height:350px;border:0;overflow-x: hidden; overflow-y: auto}
+@media (max-width: 768px) {
+	#FlightsIframe{ height: 620px }
+}
