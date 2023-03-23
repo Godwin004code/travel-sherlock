@@ -23,6 +23,7 @@ function openTab(evt, tabName) {
 
 
   const destinations = document.querySelectorAll('.dest')
+  
   console.log(destinations);
   destinations.forEach((dest) => {
     dest.addEventListener('click', function() {

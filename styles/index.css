@@ -10,9 +10,6 @@
 
 header {
     width: 100%;
-    border-bottom: 1px solid #0e1857;
-
-
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +47,7 @@ nav ul {
     width: 23%;
     margin-bottom: 20px;
     margin-top: 20px;
- 
+    border: 1px solid rgb(7, 92, 179);
 }
 #hotel #ViewChange {
     background-color: #0070e2;
@@ -64,6 +61,10 @@ nav ul {
 #hotel #ViewChange a {
     text-decoration: none;
     color: white;
+}
+
+.service-icon img {
+    width: 50px;
 }
 
 .tab-btns button svg {
@@ -95,7 +96,7 @@ nav ul {
 
 /* Change background color of buttons on hover */
 .tab-btns button:hover {
-    border: 2px solid rgb(7, 92, 179);
+   
     border-radius: 5px;
 }
 
@@ -136,9 +137,12 @@ nav ul {
     margin: 1rem 0;
     padding: 0 20px;
 }
+form input {
+    margin: 12px 0 30px 0;
+}
 
 form input, form select {
-    margin: 12px 0 30px 0;
+    
     display: block;
     width: 100%;
     height: 56px;
@@ -200,6 +204,7 @@ header .signin-btn {
 }
 .city .australia, .city .miami, .city .hong-kong {
     width: 30%;
+    height: 300px;
 }
 .city .new-york {
     width: 53%;
@@ -1610,7 +1615,7 @@ svg {
 }
 
 .footer {
-    background-color: rgb(7, 92, 179);
+    background-color: #0e1857;
     padding: 30px 0;
     width: 100%;
     color: white;
