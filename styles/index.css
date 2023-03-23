@@ -10,6 +10,7 @@
 
 header {
     width: 100%;
+    border-bottom: 1px solid #0e1857;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -47,7 +48,7 @@ nav ul {
     width: 23%;
     margin-bottom: 20px;
     margin-top: 20px;
-    border: 1px solid rgb(7, 92, 179);
+    border: 2px solid rgb(7, 92, 179);
 }
 #hotel #ViewChange {
     background-color: #0070e2;
@@ -1645,7 +1646,9 @@ svg {
 @media only screen and (max-width: 500px) {
 
 
-
+.container-wl img {
+    margin-top: 20px;
+}
 
     .services,
     .main-area {
@@ -1697,5 +1700,8 @@ svg {
 
     #SearchSection .container  {
         width: 90%;
+    }
+    .tab-btns button {
+        height: 60px;
     }
 }

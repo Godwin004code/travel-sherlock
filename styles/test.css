@@ -3506,7 +3506,7 @@ p {
     overflow: hidden;
     
     padding-top: 20px;
-    max-width: 1500px;
+   width: 100%;
     margin: 0 auto
 }
 
@@ -4147,12 +4147,13 @@ p.review-content.expanded {
     border: 1px solid transparent
 }
 
-#Filter-Column,#Links-Column {
+#Filter-Column {
     width: 20%
 }
 
 #Rates-Column {
-    width: 60%
+    margin-left: 5%;
+    width: 70%
 }
 
 #Links-Column {
@@ -5147,8 +5148,6 @@ h2#HotelOffersSimilar {
     }
 
     #Search-Box {
-        background-image: url(//cdn.hotelplanner.com/Common/Images/Directory/room-hotel-blur.jpg);
-        background-color: #333;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -9104,7 +9103,7 @@ header a:visited {
 
     
 
-#message-wl { font-size: 20px; }
+
 
 #flag-wl { padding: 15px 10px; }
     
@@ -9166,7 +9165,6 @@ a#signin-wl:hover {
 
 #ContentInner {
     margin: 0px auto;
-    padding-top: 15px;
     display:table;
     width: 100%;
     background-color: #fff;
