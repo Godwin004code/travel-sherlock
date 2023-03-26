@@ -6,7 +6,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	}
-
+    
 #landingpage {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #333;
@@ -3156,7 +3156,6 @@ p {
     float: left
 }
 
-
 #Search-Box {
     padding: 0 50px;
     height: 300px;
@@ -3168,7 +3167,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   } 
-  
+
   .label {
    
     color: rgb(0, 24, 51);
@@ -3507,7 +3506,8 @@ p {
     
     padding-top: 20px;
    width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
+    display: flex;
 }
 
 #Links-Sidebar,#Rates-Column {
@@ -3516,9 +3516,7 @@ p {
     box-sizing: border-box
 }
 
-#Rates-Column {
-    width: 100%
-}
+
 
 #Links-Sidebar {
     width: 100%;
@@ -4140,7 +4138,7 @@ p.review-content.expanded {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: left
+   
 }
 
 #Filter-Column {
@@ -4153,12 +4151,10 @@ p.review-content.expanded {
 
 #Rates-Column {
     margin-left: 5%;
-    width: 70%
+    width: 60%;
 }
 
-#Links-Column {
-    float: right
-}
+
 
 .en_CA #Support .intlphone,.en_MX #Support .intlphone,.en_US #Support .intlphone {
     display: none
@@ -4836,7 +4832,11 @@ h2#HotelOffersSimilar {
 #support-reservations {
     background-position: -56px 0
 }
-
+@media only screen and (max-width: 1018px) {
+    #Content {
+        flex-direction: column;
+    }
+}
 @media (max-width: 1300px) {
     #Filter-Column {
         width:20%
@@ -4934,6 +4934,7 @@ h2#HotelOffersSimilar {
     }
 
     #Content {
+        flex-direction: column;
         padding: 25px 0
     }
 
@@ -5565,7 +5566,8 @@ h2#HotelOffersSimilar {
     }
 
     #Content {
-        padding-top: 10px
+        flex-direction: column;
+        padding-top: 10px;
     }
 
     #Reviews {
@@ -8435,7 +8437,8 @@ body .ui-slider-float .ui-slider-tip,body .ui-slider-float .ui-slider-tip-label 
     }
 
     #sort-by {
-        border: 1px solid #e5e9f2
+        display: none;
+        border: 1px solid #e5e9f2;
     }
 
     #sort-by li.active,div ul#sort-by li.active:hover {
@@ -8461,7 +8464,7 @@ body .ui-slider-float .ui-slider-tip,body .ui-slider-float .ui-slider-tip-label 
 
 @media (min-width: 1200px) {
     #Content {
-        padding-top:28px
+        padding-top:28px;
     }
 
     #hotelResultsInfo {
@@ -9833,7 +9836,9 @@ a.clearFilters:hover {
 
 #frmAddressSort label { display: block }
 
-#paging-container { margin-bottom: 8px;}
+#paging-container { margin-bottom: 8px;
+
+}
 
 #address-dialog-form form {
 	padding: 12px 20px

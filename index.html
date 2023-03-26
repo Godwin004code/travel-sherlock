@@ -111,8 +111,8 @@
 
 
 <form action="/Search/" method="GET" name="frmGroup" id="frmGroup" autocomplete="off">
-
-    <div id="HotelSearchFields" class="input-group-xl firstInput">
+<div class="step-1">
+    <div id="HotelSearchFields" class="input-group-xl firstInput home-input">
         <label>Where Would You Like To Go?</label>
         <input type="text" autocomplete="off" class="form-control" id="txtCity" name="City" maxlength="100" value="" placeholder="Destination, hotel, landmark or address">
         <input type="hidden" value="" name="latitude" data-geo="lat">
@@ -121,7 +121,7 @@
     
    
    
-    <div class="input-group date1">
+    <div class="input-group date1 home-input">
         <label>Check-In Date</label>
         <input type="hidden" id="CheckInDate1" name="CheckInDate1" value=""><input id="CheckInDate1_disp" name="CheckInDate1_disp" maxlength="10" type="text" class="datepicker form-control date" placeholder="Choose Date" autocomplete="off" dependentdate="OutDate" min-date="3/2/2023" max-date="3/2/2026" footerlabel="Check-In Date"> <script>
     var ua = window.navigator.userAgent.toLowerCase();
@@ -166,24 +166,30 @@
     });
     </script> 
     </div>
-
-    <div class="input-group date2">
+</div>
+<div class="step-2">
+    <div class="input-group date2 home-input">
         <label>Check-Out Date</label>
         <input type="hidden" id="OutDate" name="OutDate" value=""><input id="OutDate_disp" name="OutDate_disp" maxlength="10" type="text" class="datepicker form-control date" placeholder="Choose Date" autocomplete="off" parentdate="CheckInDate1" min-date="" max-date="" footerlabel="Check-Out Date"> 
     </div>
 
-    <div class="input-group nRooms">
+    <div class="input-group nRooms home-input">
         <label>Number of Rooms</label>
         <input type="number" min="1" step="1"  autocomplete="off" class="form-control" name="Rooms" maxlength="3" value="1" placeholder="(per night)" onKeyPress="checkEnter(event, document.frmGroup)">
     </div>
 
-    
+</div> 
     <div class="submitButtonWrapper"><button type="submit" class="submit">Continue</button></div>
 </form>            
 </div>
-            
-                <div id="meeting" class="tab-panel">			
-    <form action="/Search/Meeting-Space.htm" method="GET" name="frmSpace">
+          
+                <div style="text-align: center;" id="meeting" class="tab-panel">
+                    <p>BIG Travel Subcribers have access to unlimited Resort Vacation weeks at prices that start at only $299 for an entire week!</p>			
+                    <button style="padding: 10px 20px; background-color: #0e1857; border: 0; border-radius: 6px; margin-top: 30px;">
+                        <a href="https://www.Dreamtripsintl.com" style="text-decoration: none; color: white;">Search Condon Weeks</a>
+                    </button>
+    <!-- <form action="/Search/Meeting-Space.htm" method="GET" name="frmSpace">
+
                 <div id="SpaceSearchFields" class="input-group-xl firstInput">
                     <label>Where Would You Like To Go?</label>
                 <input type="text" autocomplete="off" class="form-control" id="txtCity2" name="City" maxlength="100" value="" placeholder="Destination, hotel, landmark or address">
@@ -224,8 +230,8 @@
                 </div>
             
                 <div class="submitButtonWrapper"><button type="submit" class="submit">Search Meeting Space</button></div>
-</form>
-</div>
+</form> -->
+</div> 
             
                 <div id="car" class="tab-panel">
 
@@ -326,24 +332,25 @@ return true;
 
 <input type="hidden" name="membertoken" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhcGlLZXkiOiJlWXlHaklaa1J1Q0N2RTlIMzlyUDd1Uk1vIiwiZHRjIjoxNjc3NzczMTk0LCJpc3N1ZXIiOiJob3RlbHBsYW5uZXIiLCJsYXN0TmFtZSI6IkN1c3RvbWVyIiwidXNlcklkIjoiUzQ4OTIiLCJjdGkiOiIwMDYiLCJzb3VyY2VDb2RlIjoiV2hvbGVzYWxlIiwiZmlyc3ROYW1lIjoid2hvbGVzYWxlLlRyYXZlbFNoZXJsb2NrLmNvbSIsImV4cCI6Ik1hcmNoLCAwMiAyMDIzIDExOjA2OjM0IiwiZW1haWwiOiJub3JlcGx5LWIwNzZhODlhZTcwNjc5ZDE1RUMwOUZFREQ2MjFEQjkyNkMwMkU1NDlGMTg1NEUwRkBIb3RlbFBsYW5uZXIuY29tIiwidHRsIjozNjAwfQ.jmKJQNWXvT5VNuH4pUJW2AOtW4dHj35M2tDl0efzwjyYHM59Nvfdptb4MJ1BuLr5O5VqyB_FFU0yuC3vdUgO-A">
 <input type="hidden" name="airports_only" value="true">
-
- <div id="PickupLocation" class="input-group-xl firstInput">
+<div class="step-1">
+ <div id="PickupLocation" class="input-group-xl firstInput home-input">
     <label>Pick-Up Location</label>
     <input type="text" autocomplete="off" class="form-control" id="pickup_location" name="pickup_location" maxlength="100" placeholder="City or Airport">
     <input type="hidden" name="abbr_pickup_location" id="abbr_pickup_location" value="">
 </div>
- <div id="DropoffLocation" class="input-group-xl firstInput">
+ <div id="DropoffLocation" class="input-group-xl firstInput home-input">
     <label>Drop-Off Location</label>
     <input type="text" autocomplete="off" class="form-control" id="dropoff_location" name="dropoff_location" maxlength="100" placeholder="City or Airport">
     <input type="hidden" name="abbr_dropoff_location" id="abbr_dropoff_location" value="">
 </div>
-    
-<div class="input-group">
+</div>
+<div class="step-1">
+<div class="input-group home-input">
     <label>Pick-Up Date</label>
     <input type="hidden" id="pickup_date" name="pickup_date" value=""><input id="pickup_date_disp" name="pickup_date_disp" maxlength="10" type="text" class="datepicker form-control date" placeholder="mm/dd/yyyy" autocomplete="off" dependentdate="dropoff_date" min-date="3/2/2023" max-date="3/2/2026" footerlabel="Pick-Up Date"> 
 </div>
     
-<div class="input-group">
+<div class="input-group home-input">
     <label>Pick-Up Time</label>
     <div class="styled-select">
     <select name="pickup_time">
@@ -447,13 +454,14 @@ return true;
     </select>
     </div>
 </div>
-    
-<div class="input-group">
+</div> 
+<div class="step-1">
+<div class="input-group home-input">
     <label>Drop-Off Date</label>
     <input type="hidden" id="dropoff_date" name="dropoff_date" value=""><input id="dropoff_date_disp" name="dropoff_date_disp" maxlength="10" type="text" class="datepicker form-control date" placeholder="mm/dd/yyyy" autocomplete="off" parentdate="CheckInDate1" min-date="" max-date="" footerlabel="Drop-Off Date"> 
 </div>
     
-<div class="input-group">
+<div class="input-group home-input">
     <label>Drop-Off Time</label>
     <div class="styled-select">
         <select name="dropoff_time" style="margin: 12px 0 30px 0;">
@@ -557,9 +565,10 @@ return true;
         </select>
     </div>
 </div>
-    
-<br clear="all">
-<div class="input-group">
+</div> 
+<div class="step-1"> 
+
+<div class="input-group home-input">
     <label>Driver's Age</label>
     <div class="styled-select">
         <select name="drivers_age" style="margin: 12px 0 30px 0;">
@@ -569,7 +578,7 @@ return true;
     </div>
 </div>
     
-<div class="input-group">
+<div class="input-group home-input">
     <label>Residency</label>
     <div class="styled-select">
         <select name="residency" style="margin: 12px 0 30px 0;">
@@ -1083,7 +1092,7 @@ return true;
         </select>
     </div>
 </div>
-
+</div> 
 <div class="submitButtonWrapper"><button type="submit" class="submit">Search for Car Rentals</button></div>
 
 </form>
@@ -1093,19 +1102,17 @@ return true;
              <div id="group" class="tab-panel">
                 
 <p class="bold">
-    Our team would love to assist you in booking your group travel.
+    BIG Travel Cruise Discounts save our VIP Subscribers 5% to 35% off the BEST ONLINE PRICES on cruises!
 </p>
-<p>
-    Please use the button below if you need 9 or more rooms per night.
-</p>	
+	
 
-<p class="already-member">
-    Already have a group request? <a href="https://wholesale.travelsherlock.com/Login" rel="nofollow">Sign In Here</a></li>
-</p>
+<button class="already-member" style="padding: 10px 20px; background-color: #0e1857; border: 0; border-radius: 6px; margin-top: 30px;">
+     <a href="https://www.Dreamtripsintl.com" style="text-decoration: none; color: white;" rel="nofollow">Search Condo weeks</a></li>
+</button>
 
-<form action="/Group-Rate/">
+<!-- <form action="/Group-Rate/">
     <div class="submitButtonWrapper"><button type="submit" class="submit">Start a new Hotel RFP</button></div>
-</form>
+</form> -->
 
              </div>
             
@@ -1119,12 +1126,14 @@ return true;
 <section class="main-area">
 
 <section class="main-area-img">
-    <img src="./image/Home Page Hotel Image.png" alt="area image">
+    <img src="./image/DTI-MembershipLoyaltyProgram-Logo.png" alt="area image">
 </section>
 
 <section class="main-area-text">
-    <h2>Specially Negotiated Hotel Rates</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nesciunt in optio debitis, aliquam temporibus earum iste iure similique dolorum ipsam accusantium doloremque voluptate. Veritatis nam magnam voluptatem sunt accusantium molestiae minus error architecto, dicta, ullam ad possimus rem dolorum.</p>
+    <h2>Being a loyal DTI Member has unrivaled benefits!</h2>
+    <p>Our specially negotiated rates, along with an innovative and industry-leading loyalty points program rewards with the lowest available rates on hotels, cruises, car rentals, condos and more. With an incredibly generous 3 points for every $1 spent on your monthly membership, you won't find better deals anywhere.</p>
+    <h2 style="text-align: center;">DTI</h2>
+    <p style="text-align: center;">Destructive. Transformative. Innovative</p>
    
 </section>
 
@@ -1250,13 +1259,16 @@ return true;
     <section class="footer-container">
         <section>
             <section>
-                <img src="./image/DTI White.png" alt="DTI image" />
+                <img src="./image/DTI Blue Gradient_.png" alt="DTI image" />
             </section>
-        <section style="margin-top: 40px;">
+            <section>
+                <img src="./image/D Palm Tree_Blue Gradient TM.png" alt="DreamTrips logo">
+            </section>
+        <!-- <section style="margin-top: 40px;">
          
         <a style="color:white;" href="/Terms.cfm">Terms of Use</a> | <a  style="color:white;" href="/Privacy.cfm">Privacy</a>
         
-        </section>
+        </section> -->
         </section>
         <section class="socials">
             <div>
@@ -1290,6 +1302,7 @@ return true;
         data-custom7=""
         data-custom8="">
     </tracking>
+
 
 </section>
 <script>

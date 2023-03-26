@@ -7,7 +7,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.step-1, .step-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.step-1 .home-input, .step-2 .home-input {
+    width: 48%;
+}
+@media only screen and (max-width: 625px) {
+    .step-1, .step-2 {
+        flex-direction: column;
+    }
+    .step-1 .home-input, .step-2 .home-input {
+        width: 100%;
+    }
+}
 header {
     width: 100%;
     border-bottom: 1px solid #0e1857;
@@ -49,6 +64,7 @@ nav ul {
     margin-bottom: 20px;
     margin-top: 20px;
     border: 2px solid rgb(7, 92, 179);
+    max-height: 80px;
 }
 #hotel #ViewChange {
     background-color: #0070e2;
