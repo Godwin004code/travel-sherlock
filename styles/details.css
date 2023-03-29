@@ -10886,7 +10886,16 @@ a.room-image {
     color: white;
     font-size: 14px
 }
-
+#Ext-Search-Form {
+    width: 70%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 700px) {
+    #Ext-Search-Form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 .rateSearchForm {
     background: none !important;
     background-color: #006fd2 !important;

@@ -16,6 +16,9 @@
     width: 48%;
 }
 @media only screen and (max-width: 625px) {
+    .balance {
+        display: none;
+    }
     .step-1, .step-2 {
         flex-direction: column;
     }
@@ -60,7 +63,7 @@ nav ul {
     cursor: pointer;
     padding: 10px 0;
     transition: 0.3s;
-    width: 23%;
+    width: 18%;
     margin-bottom: 20px;
     margin-top: 20px;
     border: 2px solid rgb(7, 92, 179);
@@ -155,7 +158,7 @@ nav ul {
     padding: 0 20px;
 }
 form input {
-    margin: 12px 0 30px 0;
+    margin: 12px 0 20px 0;
 }
 
 form input, form select {
